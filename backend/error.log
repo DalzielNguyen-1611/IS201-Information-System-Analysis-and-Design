@@ -1,0 +1,9 @@
+register error: Error: ORA-00001: unique constraint (PROJECT_IS_201.SYS_C009010) violated
+Help: https://docs.oracle.com/error-help/db/ora-00001/
+    at Protocol._processMessage (D:\IS201-Information-System-Design-Analysis\backend\node_modules\oracledb\lib\thin\protocol\protocol.js:204:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async ThinConnectionImpl._execute (D:\IS201-Information-System-Design-Analysis\backend\node_modules\oracledb\lib\thin\connection.js:225:7)
+    at async ThinConnectionImpl.execute (D:\IS201-Information-System-Design-Analysis\backend\node_modules\oracledb\lib\thin\connection.js:1109:14)
+    at async Connection.execute (D:\IS201-Information-System-Design-Analysis\backend\node_modules\oracledb\lib\connection.js:1002:16)
+    at async Connection.execute (D:\IS201-Information-System-Design-Analysis\backend\node_modules\oracledb\lib\util.js:298:16)
+    at async exports.register (D:\IS201-Information-System-Design-Analysis\backend\src\controllers\hrController.js:42:22)
